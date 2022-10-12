@@ -27,5 +27,6 @@ function test()
         console.log(liczby[x])
     }
     console.log("======================");
+    console.log("test");
 
 }
