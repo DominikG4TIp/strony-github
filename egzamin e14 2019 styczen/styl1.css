@@ -1,0 +1,59 @@
+body
+{
+    font-family: Helvetica;
+    margin: 0px;
+}
+h1
+{
+    letter-spacing: 5px;
+    margin: 0px;
+}
+form
+{
+    line-height: 3;
+    margin: 30px;
+}
+form:hover
+{
+    background-color: deepskyblue;
+}
+
+#left
+{
+    background-color: navy;
+    color: white;
+    height: 700px;
+    width: 25%;
+    float: left;
+}
+#right-top
+{
+    background-color: royalblue;
+    height: 100px;
+    width: 75%;
+    text-align: center;
+    margin-left: 25%;
+}
+#right-middle
+{
+    padding: 1px;
+    background-color: steelblue;
+    height: 298px;
+    width: 75%;
+    margin-left: 25%;
+}
+#right-bottom
+{
+    background-color: royalblue;
+    height: 300px;
+    width: 75%;
+    text-align: center;
+    margin-left: 25%;
+}
+#fotter
+{
+    background-color: steelblue;
+    text-align: center;
+    padding: 20px;
+    clear: both;
+}

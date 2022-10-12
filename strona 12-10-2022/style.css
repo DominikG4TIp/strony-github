@@ -1,0 +1,38 @@
+#banner
+{
+    width: auto;
+    height: 200px;
+    background-color: #4e0e0e;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    
+}
+#middle-left
+{
+    width: 40%;
+    height: 500px;
+    float: left;
+    background-color: #4fc54f;
+}
+#middle-right
+{
+    width: 60%;
+    height: 500px;
+    float: left;
+    background-color: #2c34a5;
+}
+#img
+{
+    padding: 5px;
+    margin: 10px;
+}
+#footer
+{
+    width: auto;
+    height: 100px;
+    clear: both;
+    background-color: black;
+    color: white;
+}
