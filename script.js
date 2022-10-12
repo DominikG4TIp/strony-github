@@ -29,4 +29,5 @@ function test()
     console.log("======================");
     console.log("test");
 
+    console.log("test2");
 }
