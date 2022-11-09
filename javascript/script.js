@@ -17,8 +17,26 @@ function ZmienKolor()
     document.getElementById("kwadrat").style.backgroundColor = "rgb(" + colors[0].value + "," + colors[1].value + "," + colors[2].value + ")";
 }
 marginLeft = 0;
-function Prawo(ilePxWprawo)
+marginTop = 0;
+function ZmianaPozycjiPoziomo(px)
 {
-    marginLeft += ilePxWprawo;
+    marginLeft += px;
     document.getElementById("kwadrat").style.marginLeft = marginLeft + "px";
+}
+
+function myFunction() {
+  alert ("Hello World!");
+}
+
+document.onkeydown = (e) => {
+    e = e || window.event;
+    if (e.keyCode === 38) {
+        //up
+    } else if (e.keyCode === 40) {
+        //down
+    } else if (e.keyCode === 37) {
+        ZmianaPozycjiPoziomo(-10);
+    } else if (e.keyCode === 39) {
+        ZmianaPozycjiPoziomo(10);
+    }
 }
